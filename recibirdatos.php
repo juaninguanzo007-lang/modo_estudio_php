@@ -48,12 +48,25 @@
 
          $consulta = mysqli_query($conexion,$query1) or die("Hubo un error en la consulta. <br>".mysqli_error($conexion));
         mysqli_close($conexion); 
-
+        
          if($consulta==true){
             echo "<p class='alert alert-success'>Datos guardados correctamente</p>";    
         }else{
             echo "<p class='alert alert-danger'>Hubo un error en la carga de datos</p>";
         }
+
+        $conexion = mysqli_connect($host, $user, $pass, $database);
+        if ($conexion === false) {
+            die("Hubo un error. <br>" . mysqli_connect_error());
+        }
+
+        $query2="SELECT mail FROM usuarios";
+
+         $consulta2 = mysqli_query($conexion,$query2) or die("Hubo un error en la consulta. <br>".mysqli_error($conexion));
+        mysqli_close($conexion);
+        
+        echo mysqli_num_rows($consulta2);
+
 
 
  ?>
