@@ -32,26 +32,41 @@
             <h2>Tu plan de estudio, pensado para vos</h2>
         </div>
     </section>
-     <section class="progreso">
 
-        <div class="caja-progreso">
+<article class="registro_usuario">
 
-            <h3>Progreso Actual</h3>
 
-            <article class="contenido-progreso">
-                <p class="texto-home">Clase del día</p>
-                <p class="texto-home">Matemática</p>
-                <p class="texto-home">45 min</p>
-                <p class="texto-home">Progreso 0%</p>
 
-                  <a href="./pages/modo_estudio.html" class="btn-flecha">
-                  →
-                  </a>
-            </article>
+    <form action="recibirdatos.php" method="POST" >
+        <ul>
+            <li>
+                <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Ingrese su nombre" >
+            </li>
+            <li>
+                <label for="link">Mail</label>
+        <input type="email" name="email" placeholder="Ingrese un mail">
+            </li>
+            <li>
+                <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" placeholder="Ingrese una contraseña">
+            </li>
+            <li>
+                <label for="edad">Fecha de nacimiento</label>
+        <input type="date" name="edad" placeholder="Ingrese su fecha de nacimiento">
+            </li>
+            <li>
+            <label for="pais">país</label>
+        <input type="text" name="pais" placeholder="Ingrese su pais"> 
+            </li>
+        </ul>
+        <button>Enviar</button>
+    
+    </form>
 
-        </div>
+</article>
 
-    </section>
+   
 <section class="info-web">
 
     <div class="imagen-info">
@@ -73,36 +88,27 @@
     </div>
 
 </section>
-<article>
-<!--
-<form action="intex.html" method="post">
-    <ul>
-        <li>
-            <label for="nombre">Nombre</label>
-    <input type="text" name="nombre" placeholder="Ingrese su nombre" >
-        </li>
-        <li>
-            <label for="apellido">Apellido</label>
-    <input type="text" name="apellido" placeholder="Ingrese su apellido">
-        </li>
-        <li>
-            <label for="contraseña">Contraseña</label>
-    <input type="password" name="contraseña" placeholder="Ingrese una contraseña">
-        </li>
-        <li>
-            <label for="telefono">telefono</label>
-    <input type="tel" name="telefono" placeholder="Ingrese un Teléfono">
-        </li>
-        <li>
-           <label for="link">Mail</label>
-    <input type="email" name="mail" placeholder="Ingrese un mail"> 
-        </li>
-    </ul>
-    <button>Enviar</button>
- 
-</form>
-<!-->
-</article>
+
+ <section class="progreso">
+
+        <div class="caja-progreso">
+
+            <h3>Progreso Actual</h3>
+
+            <article class="contenido-progreso">
+                <p class="texto-home">Clase del día</p>
+                <p class="texto-home">Matemática</p>
+                <p class="texto-home">45 min</p>
+                <p class="texto-home">Progreso 0%</p>
+
+                  <a href="./pages/modo_estudio.html" class="btn-flecha">
+                  →
+                  </a>
+            </article>
+
+        </div>
+
+    </section>
 
 <footer>
 
