@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modo estudio</title>
-    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -33,63 +33,63 @@
         </div>
     </section>
 
-<article class="registro_usuario">
-
-
-
-    <form action="recibirdatos.php" method="POST" >
-        <ul>
-            <li>
-                <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" placeholder="Ingrese su nombre" >
-            </li>
-            <li>
-                <label for="link">Mail</label>
-        <input type="email" name="email" placeholder="Ingrese un mail">
-            </li>
-            <li>
-                <label for="contraseña">Contraseña</label>
-        <input type="password" name="contraseña" placeholder="Ingrese una contraseña">
-            </li>
-            <li>
-                <label for="edad">Fecha de nacimiento</label>
-        <input type="date" name="edad" placeholder="Ingrese su fecha de nacimiento">
-            </li>
-            <li>
-            <label for="pais">país</label>
-        <input type="text" name="pais" placeholder="Ingrese su pais"> 
-            </li>
-        </ul>
-        <button>Enviar</button>
-    
-    </form>
-
-</article>
-
-   
-<section class="info-web">
-
-    <div class="imagen-info">
-
-        <img src="./images/ChatGPT Image 10 may 2026, 04_35_40 p.m..png" alt="imagen estudio">
-
-    </div>
-
-    <div class="texto-info">
-
-        <h2>¿Qué hace nuestra página web?</h2>
-        <p>
-            Nuestra página proporciona ayuda a estudiantes
-            que no encuentran la manera de estudiar y organizarse.
-            Los ayudamos a enfocarse y mejorar su rendimiento
-            a través de ejercicios fáciles y adaptados a cada estudiante.
-        </p>
-
+<section class="contenedor">
+    <div class="caja_registro">
+        <form action="recibirdatos.php" method="POST" >
+            <ul>
+                <li>
+                    <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" >
+                </li>
+                <li>
+                    <label for="link">Mail</label>
+            <input type="email" name="email" placeholder="Ingrese un mail">
+                </li>
+                <li>
+                    <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" placeholder="Ingrese una contraseña">
+                </li>
+                <li>
+                    <label for="edad">Fecha de nacimiento</label>
+            <input type="date" name="edad" placeholder="Ingrese su fecha de nacimiento">
+                </li>
+                <li>
+                <label for="pais">país</label>
+            <input type="text" name="pais" placeholder="Ingrese su pais"> 
+                </li>
+            </ul>
+            <button>Enviar</button>
+        
+        </form>
     </div>
 
 </section>
 
- <section class="progreso">
+   
+<section class="contenedor">
+    <div class= info>
+        <div class="imagen-info">
+
+            <img src="./images/ChatGPT Image 10 may 2026, 04_35_40 p.m..png" alt="imagen estudio">
+
+        </div>
+
+        <div class="texto-info">
+
+            <h2>¿Qué hace nuestra página web?</h2>
+            <p>
+                Nuestra página proporciona ayuda a estudiantes
+                que no encuentran la manera de estudiar y organizarse.
+                Los ayudamos a enfocarse y mejorar su rendimiento
+                a través de ejercicios fáciles y adaptados a cada estudiante.
+            </p>
+
+        </div>
+    </div>
+
+</section>
+
+    <section class="contenedor">
 
         <div class="caja-progreso">
 

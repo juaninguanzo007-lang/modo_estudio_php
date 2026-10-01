@@ -19,10 +19,18 @@ body{
 }
 
 .registro_usuario{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.caja_registro{
+    justify-self: center;
+    justify-items: center;
+    background-color: #7387C5;
+    width: 51%;
+    padding: 2rem;
+
+    border-radius: 2rem;
 }
 
 .menu ul{
@@ -150,7 +158,7 @@ color: #FFFBE9;
 }
 
 .info-perfil{
-    width:400px;
+    width:80%;
     min-height:140px;
 
     background:#7387C5;
@@ -496,6 +504,7 @@ color: #FFFBE9;
 }
 
 .caja-progreso{
+    justify-self: center;
     background-color: #7387C5;
 
     width: 44rem;
@@ -561,17 +570,17 @@ color: #FFFBE9;
     padding: 10px;   
 }
 
-.info-web{
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    gap: 4rem;
-
+.contenedor{
+    width: 50%;
     margin-top: 6rem;
     margin-bottom: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .imagen-info img{
