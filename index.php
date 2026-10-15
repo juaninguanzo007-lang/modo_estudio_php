@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modo estudio</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
-<body>
+<body class="color-scheme-light">
     <header class="header">
        <div class="logo">
             <img src="./images/logo.png.png" alt="Logo">
             <h1>MODO<br>ESTUDIO</h1>
         </div>
-        <nav class="menu">
+        <nav class="menu_paginas">
             <ul>
                 <li class="pasaje"><a href="./index.php">Home</a></li>
                 <li class="pasaje"><a href="./pages/calendario.php">Calendario</a></li>
@@ -39,23 +39,23 @@
             <ul>
                 <li>
                     <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" placeholder="Ingrese su nombre" >
+            <input class="form-control" type="text" name="nombre" placeholder="Ingrese su nombre" >
                 </li>
                 <li>
                     <label for="link">Mail</label>
-            <input type="email" name="email" placeholder="Ingrese un mail">
+            <input class="form-control" type="email" name="email" placeholder="Ingrese un mail">
                 </li>
                 <li>
                     <label for="contraseña">Contraseña</label>
-            <input type="password" name="contraseña" placeholder="Ingrese una contraseña">
+            <input  class="form-control"type="password" name="contraseña" placeholder="Ingrese una contraseña">
                 </li>
                 <li>
                     <label for="edad">Fecha de nacimiento</label>
-            <input type="date" name="edad" placeholder="Ingrese su fecha de nacimiento">
+            <input class="form-control" type="date" name="edad" placeholder="Ingrese su fecha de nacimiento">
                 </li>
                 <li>
                 <label for="pais">país</label>
-            <input type="text" name="pais" placeholder="Ingrese su pais"> 
+            <input class="form-control" type="text" name="pais" placeholder="Ingrese su pais"> 
                 </li>
             </ul>
             <button>Enviar</button>
@@ -139,5 +139,6 @@
     </div>
 
 </footer>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
 </body>
 </html>

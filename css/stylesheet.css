@@ -1,3 +1,4 @@
+
 *{
     padding: 0%;
     margin: 0%;
@@ -33,7 +34,7 @@ body{
     border-radius: 2rem;
 }
 
-.menu ul{
+.menu_paginas ul{
 list-style: none;
 display: flex;
 gap: 20px;
@@ -63,11 +64,11 @@ color: #FFFBE9;
     width: 9.375rem;
 }
 
-.menu{
+.menu_paginas{
     margin-left: auto;
 }
 
-.menu ul{
+.menu_paginas ul{
     list-style: none;
 
     display: flex;
@@ -75,7 +76,7 @@ color: #FFFBE9;
     align-items: center;
 }
 
-.menu a{
+.menu_paginas a{
     text-decoration: none;
     color: #FFFBE9;
     font-size: 0.95rem;}
@@ -898,12 +899,12 @@ footer hr{
         font-size: 1.4rem;
     }
 
-    .menu{
+    .menu_paginas{
         margin-left: 0;
         width: 100%;
     }
 
-    .menu ul{
+    .menu_paginas ul{
         justify-content: center;
         flex-wrap: wrap;
         gap: 1rem;
@@ -1015,7 +1016,7 @@ footer hr{
         font-size: 1.2rem;
     }
 
-    .menu a{
+    .menu_paginas a{
         font-size: 0.85rem;
     }
 

@@ -16,7 +16,7 @@
         <img src="../images/logo.png.png" alt="Logo">
         <h1>MODO<br>ESTUDIO</h1>
     </div>
-        <nav class="menu">
+        <nav class="menu_paginas">
            <ul>
                 <li class="pasaje"><a href="../index.php">Home</a></li>
                 <li class="pasaje"><a href="./calendario.php">Calendario</a></li>
