@@ -11,21 +11,29 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body class="color-scheme-light">
-    <header class="header">
-       <div class="logo">
-            <img src="./images/logo.png.png" alt="Logo">
-            <h1>MODO<br>ESTUDIO</h1>
+    <header class="header container-fluid">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="logo">
+                        <img src="./images/logo.png.png" alt="Logo">
+                        <h1>MODO<br>ESTUDIO</h1>
+                    </div>
+                </div>   
+                <div class="col">
+                    <nav class="menu_paginas">
+                        <ul>
+                            <li class="pasaje"><a href="./index.php">Home</a></li>
+                            <li class="pasaje"><a href="./pages/calendario.php">Calendario</a></li>
+                            <li class="pasaje"><a href="./pages/modo_estudio.php">Modo estudio</a></li>
+                            <li class="pasaje"><a href="./pages/perfil.php">Perfíl</a></li>
+                            <li class="pasaje"><a href="./pages/progreso.php">Progreso</a></li>
+                            <li class="pasaje"><a href="./pages/recomendaciones.php">Recomendaciones</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
-        <nav class="menu_paginas">
-            <ul>
-                <li class="pasaje"><a href="./index.php">Home</a></li>
-                <li class="pasaje"><a href="./pages/calendario.php">Calendario</a></li>
-                <li class="pasaje"><a href="./pages/modo_estudio.php">Modo estudio</a></li>
-                <li class="pasaje"><a href="./pages/perfil.php">Perfíl</a></li>
-                <li class="pasaje"><a href="./pages/progreso.php">Progreso</a></li>
-                <li class="pasaje"><a href="./pages/recomendaciones.php">Recomendaciones</a></li>
-            </ul>
-        </nav>
     </header>
     <section class="hero">
          <div class="texto-hero">
