@@ -62,7 +62,7 @@
             <input class="form-control" type="date" name="edad" placeholder="Ingrese su fecha de nacimiento">
                 </li>
                 <li>
-                <label for="pais">país</label>
+                <label for="pais">País</label>
             <input class="form-control" type="text" name="pais" placeholder="Ingrese su pais"> 
                 </li>
             </ul>
