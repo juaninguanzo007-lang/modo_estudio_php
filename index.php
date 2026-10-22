@@ -36,7 +36,7 @@
         </div>
     </header>
     <section class="hero">
-         <div class="texto-hero">
+        <div class="texto-hero">
             <h2>Tu plan de estudio, pensado para vos</h2>
         </div>
     </section>
