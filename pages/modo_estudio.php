@@ -39,8 +39,8 @@
 
     <div class="consulta-ia">
 
-        <label for="consulta">¿Qué necesitas estudiar?</label>
-
+        <label for="consulta-ia">¿Qué necesitas estudiar?</label>
+        <form action="./recibirconsultaia.php" method="GET">
         <textarea
             id="consulta"
             placeholder="Ej: Explícame polinomios y crea 5 ejercicios para practicar">

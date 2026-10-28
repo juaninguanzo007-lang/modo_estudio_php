@@ -358,7 +358,7 @@ color: #FFFBE9;
     font-weight:bold;
 }
 
-.consulta-ia textarea{
+.consulta-ia input{
     height:150px;
 
     resize:none;

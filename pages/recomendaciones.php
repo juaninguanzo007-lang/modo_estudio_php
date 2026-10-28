@@ -28,7 +28,7 @@
         </nav>
     </header>
     <section class="titulo-pagina">
-    <h2>Recomendaciónes</h2>
+    <h2>Recomendaciones</h2>
     </section>
 
 <section class="recomendaciones">
