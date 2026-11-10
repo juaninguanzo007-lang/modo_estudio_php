@@ -6,23 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-     $conexion = mysqli_connect($host, $user, $pass, $database);
-        if ($conexion === false) {
-            die("Hubo un error. <br>" . mysqli_connect_error());
-        }
-        ?>
-        <?php
-        $host = "localhost";
-        $user = "root";
-        $pass = "";         
-        $database = "modoestudio"; 
+  <?php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$database = "modoestudio";
 
-        $conexion = mysqli_connect($host, $user, $pass, $database);
+$conexion = mysqli_connect($host, $user, $pass, $database);
 
-        if (!$conexion) {
-            die("Fallo en la conexión: " . mysqli_connect_error());
-        }
-        ?>
+if (!$conexion) {
+    die("Fallo en la conexión: " . mysqli_connect_error());
+}
+?>
 </body>
 </html>
