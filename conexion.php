@@ -12,5 +12,17 @@
             die("Hubo un error. <br>" . mysqli_connect_error());
         }
         ?>
+        <?php
+        $host = "localhost";
+        $user = "root";
+        $pass = "";         
+        $database = "modoestudio"; 
+
+        $conexion = mysqli_connect($host, $user, $pass, $database);
+
+        if (!$conexion) {
+            die("Fallo en la conexión: " . mysqli_connect_error());
+        }
+        ?>
 </body>
 </html>
