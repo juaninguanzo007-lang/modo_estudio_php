@@ -37,26 +37,20 @@
 
     </div>
 
-    <div class="consulta-ia">
-
-        <label for="consulta-ia">¿Qué necesitas estudiar?</label>
-        <form action="./recibirconsultaia.php" method="GET">
-        <textarea
-            id="consulta"
-            name="busqueda_ia"
-            placeholder="Ej: Explícame polinomios y crea 5 ejercicios para practicar">
-        </textarea>
+   <div class="consulta-ia">
+    <label for="consulta">¿Qué necesitas estudiar?</label>
+    
+    <form action="../recibirconsultaia.php" method="GET">
+        <textarea 
+            id="consulta" 
+            name="busqueda_ia" 
+            placeholder="Ej: Explicame polinomios y crea 5 ejercicios para practicar"></textarea>
 
         <div class="acciones-ia">
-
-            <button>Explicar</button>
-            <button>Resumir</button>
-            <button>Ejercicios</button>
-            <button>Examen</button>
-
+            <button type="submit">Buscar</button>
         </div>
-
-    </div>
+    </form>
+</div>
 
     <div class="respuesta-ia">
 
