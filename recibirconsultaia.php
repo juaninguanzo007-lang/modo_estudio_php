@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modo estudio - Resultados</title>
-    <link rel="stylesheet" href="../css/stylesheet.css">
+    <!-- La ruta del CSS sube un nivel porque está en css/ -->
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
     <?php
