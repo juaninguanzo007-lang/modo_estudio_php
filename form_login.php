@@ -43,8 +43,7 @@
     <section class="contenedor">
         <div class="caja_registro">
             <h1 class="mb-4 text-center">Iniciar Sesión</h1>
-
-            <!-- Formulario con la misma estructura visual que el registro -->
+            <br>
             <form action="login.php" method="POST">
                 <ul>
                     <li>

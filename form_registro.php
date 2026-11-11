@@ -40,6 +40,7 @@
     <section class="contenedor">
     <div class="caja_registro">
         <form action="recibirdatos.php" method="POST" >
+            <h1 class="mb-4 text-center">Registro</h1>
             <ul>
                 <li>
                     <label for="nombre">Nombre</label>

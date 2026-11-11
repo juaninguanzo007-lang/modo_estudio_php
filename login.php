@@ -25,8 +25,8 @@ $consulta = mysqli_query($conexion, $query1) or die("Hubo un error en la consult
 mysqli_close($conexion);
 
 if ($consulta == true) {
-    echo "<p class='alert alert-success'>¡Registro exitoso! Ya puedes iniciar sesión.</p>";
-    echo "<br><a href='form_login.php'>Ir a Iniciar Sesión</a>";
+    echo "<p class='alert alert-success'>Registrado correctamenre.</p>";
+    echo "<br><a href='index.php'>Ir al comienzo</a>";
 } else {
     echo "<p class='alert alert-danger'>Hubo un error en la carga de datos.</p>";
 }
