@@ -79,7 +79,7 @@
                 <p class="texto-home">45 min</p>
                 <p class="texto-home">Progreso 0%</p>
 
-                  <a href="./pages/modo_estudio.html" class="btn-flecha">
+                  <a href="pages/progreso.php" class="btn-flecha">
                   →
                   </a>
             </article>
