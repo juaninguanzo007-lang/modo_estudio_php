@@ -23,12 +23,14 @@
                 <div class="col">
                     <nav class="menu_paginas">
                         <ul>
-                            <li class="pasaje"><a href="./index.php">Home</a></li>
-                            <li class="pasaje"><a href="./pages/calendario.php">Calendario</a></li>
-                            <li class="pasaje"><a href="./pages/modo_estudio.php">Modo estudio</a></li>
-                            <li class="pasaje"><a href="./pages/perfil.php">Perfíl</a></li>
-                            <li class="pasaje"><a href="./pages/progreso.php">Progreso</a></li>
-                            <li class="pasaje"><a href="./pages/recomendaciones.php">Recomendaciones</a></li>
+                            <li class="pasaje"><a href="../index.php">Home</a></li>
+                            <li class="pasaje"><a href="./calendario.php">Calendario</a></li>
+                            <li class="pasaje"><a href="./modo_estudio.php">Modo estudio</a></li>
+                            <li class="pasaje"><a href="./perfil.php">Perfíl</a></li>
+                            <li class="pasaje"><a href="./progreso.php">Progreso</a></li>
+                            <li class="pasaje"><a href="./recomendaciones.php">Recomendaciones</a></li>
+                            <li class="pasaje"><a href="../form_login.php">Inicia sesion</a></li>
+                            <li class="pasaje"><a href="../form_registro.php">Registrate</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -41,37 +43,6 @@
         </div>
     </section>
 
-<section class="contenedor">
-    <div class="caja_registro">
-        <form action="recibirdatos.php" method="POST" >
-            <ul>
-                <li>
-                    <label for="nombre">Nombre</label>
-            <input class="form-control" type="text" name="nombre" placeholder="Ingrese su nombre" >
-                </li>
-                <li>
-                    <label for="link">Mail</label>
-            <input class="form-control" type="email" name="email" placeholder="Ingrese un mail">
-                </li>
-                <li>
-                    <label for="contraseña">Contraseña</label>
-            <input  class="form-control"type="password" name="contraseña" placeholder="Ingrese una contraseña">
-                </li>
-                <li>
-                    <label for="edad">Fecha de nacimiento</label>
-            <input class="form-control" type="date" name="edad" placeholder="Ingrese su fecha de nacimiento">
-                </li>
-                <li>
-                <label for="pais">País</label>
-            <input class="form-control" type="text" name="pais" placeholder="Ingrese su pais"> 
-                </li>
-            </ul>
-            <button>Enviar</button>
-        
-        </form>
-    </div>
-
-</section>
 
    
 <section class="contenedor">
