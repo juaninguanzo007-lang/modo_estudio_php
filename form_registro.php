@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modo estudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body class="color-scheme-light">
     <header class="header container-fluid">
@@ -18,14 +23,14 @@
                 <div class="col">
                     <nav class="menu_paginas">
                         <ul>
-                            <li class="pasaje"><a href="../index.php">Home</a></li>
-                            <li class="pasaje"><a href="./calendario.php">Calendario</a></li>
-                            <li class="pasaje"><a href="./modo_estudio.php">Modo estudio</a></li>
-                            <li class="pasaje"><a href="./perfil.php">Perfíl</a></li>
-                            <li class="pasaje"><a href="./progreso.php">Progreso</a></li>
-                            <li class="pasaje"><a href="./recomendaciones.php">Recomendaciones</a></li>
-                            <li class="pasaje"><a href="../form_login.php">Inicia sesion</a></li>
-                            <li class="pasaje"><a href="../form_registro.php">Registrate</a></li>
+                            <li class="pasaje"><a href="index.php">Home</a></li>
+                            <li class="pasaje"><a href="pages/calendario.php">Calendario</a></li>
+                            <li class="pasaje"><a href="pages/modo_estudio.php">Modo estudio</a></li>
+                            <li class="pasaje"><a href="pages/perfil.php">Perfíl</a></li>
+                            <li class="pasaje"><a href="pages/progreso.php">Progreso</a></li>
+                            <li class="pasaje"><a href="pages/recomendaciones.php">Recomendaciones</a></li>
+                            <li class="pasaje"><a href="form_login.php">Inicia sesion</a></li>
+                            <li class="pasaje"><a href="form_registro.php">Registrate</a></li>
                         </ul>
                     </nav>
                 </div>

@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
-        <!-- Como estamos en la carpeta pages, subimos un nivel para buscar el icono y el css -->
-        <link rel="icon" href="../images/icono.ico">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="../css/stylesheet.css">
-        <title>Iniciar Sesión - Modo Estudio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo estudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
     </head>
 
    <body class="color-scheme-light">
@@ -27,14 +24,14 @@
                 <div class="col">
                     <nav class="menu_paginas">
                         <ul>
-                            <li class="pasaje"><a href="../index.php">Home</a></li>
-                            <li class="pasaje"><a href="./calendario.php">Calendario</a></li>
-                            <li class="pasaje"><a href="./modo_estudio.php">Modo estudio</a></li>
-                            <li class="pasaje"><a href="./perfil.php">Perfíl</a></li>
-                            <li class="pasaje"><a href="./progreso.php">Progreso</a></li>
-                            <li class="pasaje"><a href="./recomendaciones.php">Recomendaciones</a></li>
-                            <li class="pasaje"><a href="../form_login.php">Inicia sesion</a></li>
-                            <li class="pasaje"><a href="../form_registro.php">Registrate</a></li>
+                            <li class="pasaje"><a href="index.php">Home</a></li>
+                            <li class="pasaje"><a href="pages/calendario.php">Calendario</a></li>
+                            <li class="pasaje"><a href="pages/modo_estudio.php">Modo estudio</a></li>
+                            <li class="pasaje"><a href="pages/perfil.php">Perfíl</a></li>
+                            <li class="pasaje"><a href="pages/progreso.php">Progreso</a></li>
+                            <li class="pasaje"><a href="pages/recomendaciones.php">Recomendaciones</a></li>
+                            <li class="pasaje"><a href="form_login.php">Inicia sesion</a></li>
+                            <li class="pasaje"><a href="form_registro.php">Registrate</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -42,38 +39,33 @@
         </div>
     </header>
 
-        <main class="maindelform container my-5">
-            <div class="contenedordelform">
-                <h1>Iniciar Sesión</h1>
+        <main>
+    <section class="contenedor">
+        <div class="caja_registro">
+            <h1 class="mb-4 text-center">Iniciar Sesión</h1>
 
-                <form action="../login.php" method="POST">
+            <!-- Formulario con la misma estructura visual que el registro -->
+            <form action="login.php" method="POST">
+                <ul>
+                    <li>
+                        <label for="mail">Correo Electrónico</label>
+                        <input class="form-control" type="email" id="mail" name="mail" placeholder="Ingrese su mail" required>
+                    </li>
+                    <li>
+                        <label for="contraseña">Contraseña</label>
+                        <input class="form-control" type="password" id="contraseña" name="contraseña" placeholder="Ingrese su contraseña" required>
+                    </li>
+                </ul>
 
-                    <div class="campodelform mb-3">
-                        <label for="mail" class="form-label">Correo Electrónico:</label>
-                        <input type="email" id="mail" name="mail" placeholder="Juan@gmail.com" required class="form-control inputcampos">
-                    </div>
-
-                    <div class="campodelform mb-3">
-                        <label for="contraseña" class="form-label">Contraseña:</label>
-                        <input type="password" id="contraseña" name="contraseña" required class="form-control inputcampos">
-                    </div>
-
-                    <div class="botonesdelform mb-3">
-                        <input type="submit" value="Iniciar sesión" class="btn btn-primary">
-                        <input type="reset" class="btn btn-secondary">
-                    </div>
-
-                    <div class="botonesdelform d-flex gap-2">
-                        <a href="form_registro.php" class="btn btn-outline-primary btn-sm px-3 py-2">Registrarse</a>
-                        <a href="salir.php" class="btn btn-outline-danger btn-sm px-3 py-2">Cerrar sesión</a>
-                    </div>
-                </form>
-            </div>
-        </main>
-
-        <footer class="footer container-fluid py-4 text-center">
-            <p class="mb-0 textodefooter">©2026 Desarrollado por Martina Fekonja Casiña & Ezequiel López Mic</p>
-        </footer>
+                <div class="botonesdelform text-center mt-3">
+                    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    <a href="form_registro.php" class="btn btn-outline-primary ms-2">Registrarse</a>
+                    <a href="salir.php" class="btn btn-outline-danger ms-2">Cerrar sesión</a>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"></script>
     </body>

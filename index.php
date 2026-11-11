@@ -23,15 +23,14 @@
                 <div class="col">
                     <nav class="menu_paginas">
                         <ul>
-                            <li class="pasaje"><a href="../index.php">Home</a></li>
-                            <li class="pasaje"><a href="./calendario.php">Calendario</a></li>
-                            <li class="pasaje"><a href="./modo_estudio.php">Modo estudio</a></li>
-                            <li class="pasaje"><a href="./perfil.php">Perfíl</a></li>
-                            <li class="pasaje"><a href="./progreso.php">Progreso</a></li>
-                            <li class="pasaje"><a href="./recomendaciones.php">Recomendaciones</a></li>
-                            <li class="pasaje"><a href="../form_login.php">Inicia sesion</a></li>
-                            <li class="pasaje"><a href="../form_registro.php">Registrate</a></li>
-                        </ul>
+                            <li class="pasaje"><a href="index.php">Home</a></li>
+                            <li class="pasaje"><a href="pages/calendario.php">Calendario</a></li>
+                            <li class="pasaje"><a href="pages/modo_estudio.php">Modo estudio</a></li>
+                            <li class="pasaje"><a href="pages/perfil.php">Perfíl</a></li>
+                            <li class="pasaje"><a href="pages/progreso.php">Progreso</a></li>
+                            <li class="pasaje"><a href="pages/recomendaciones.php">Recomendaciones</a></li>
+                            <li class="pasaje"><a href="form_login.php">Inicia sesion</a></li>
+                            <li class="pasaje"><a href="form_registro.php">Registrate</a></li>
                     </nav>
                 </div>
             </div>
